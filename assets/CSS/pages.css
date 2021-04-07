@@ -1,0 +1,33 @@
+body{
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(29,26,55,1) 39%, rgba(74,81,112,1) 75%, rgba(139,134,115,1) 96%, rgba(173,120,72,1) 100%);}
+
+
+nav{
+    background-color:darkgray;
+    height: 70px;
+}
+
+.name{
+    color: #000000;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.search-icon{
+    margin-right: 10px;
+}
+
+.picture-description-container{
+    height: 100vh;
+    
+}
+
+
+@media(min-width:900px){
+    body{
+        background-image: url(../Images/Background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}

@@ -1,0 +1,48 @@
+.display-flex{
+    display: flex;
+}
+
+.df-spaced-arround{
+    justify-content: space-around;
+}
+
+.df-spaced-between{
+    justify-content: space-between;
+}
+
+.df-center{
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/* =================== HEGHT MEASURES ============= */
+/* #region Height measures */
+
+.height100pcnt{
+    height: 100%;
+}
+
+.margin-top50{
+    margin-top: 50%;
+}
+
+
+
+/* #endregion */
+
+/* ================================================== */
+
+
+
+/* =================== WIDTH MEASURES =================== */
+/* #region Width measures */
+
+
+
+
+
+
+/* #endregion */

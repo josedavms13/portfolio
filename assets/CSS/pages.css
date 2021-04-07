@@ -23,11 +23,26 @@ nav{
     
 }
 
+.photo{
+    height: 45vh;
+}
 
-@media(min-width:900px){
-    body{
-        background-image: url(../Images/Background.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+img{
+    max-height: 28vh;
+    border-radius: 50%;
+}
+
+.name-description{
+    color: white;
+}
+
+.student-of{
+    color: #ba6b44;
+}
+
+.profesion{
+    border-bottom-style: solid;
+    border-color: white;
+    padding-bottom: 14px;
+    border-width: 2px;
 }

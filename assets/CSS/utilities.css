@@ -15,7 +15,9 @@
     align-items: center;
 }
 
-
+.df-vertical{
+    flex-direction: column;
+}
 
 
 /* =================== HEGHT MEASURES ============= */
@@ -29,6 +31,9 @@
     margin-top: 50%;
 }
 
+.top-space-sm{
+    margin-top: 7px;
+}
 
 
 /* #endregion */

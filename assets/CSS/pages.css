@@ -2,6 +2,9 @@ body{
     background: rgb(0,0,0);
     background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(29,26,55,1) 39%, rgba(74,81,112,1) 75%, rgba(139,134,115,1) 96%, rgba(173,120,72,1) 100%);}
 
+/* ========== NAV =========== */
+
+/* #region Navigation */
 
 nav{
     background-color:darkgray;
@@ -17,10 +20,14 @@ nav{
 .search-icon{
     margin-right: 10px;
 }
+/* #endregion */
+
+/* ========= PICTURE AND TITLES ==========*/
+
+/* #region Pictures and description */
 
 .picture-description-container{
-    height: 100vh;
-    
+    height: 90vh;
 }
 
 .photo{
@@ -38,6 +45,7 @@ img{
 
 .student-of{
     color: #ba6b44;
+    font-size: 1.1rem;
 }
 
 .profesion{
@@ -46,3 +54,34 @@ img{
     padding-bottom: 14px;
     border-width: 2px;
 }
+
+.social{
+    height: 70px;
+
+}
+.social-container{
+    width: 40%;
+}
+
+/* #endregion */
+
+
+/* ========= BIOGRAPHY ================*/
+/* #region Biography */
+
+.Biography-container{
+    background-color: rgba(255, 255, 255, 0.062);
+    padding: 10px;
+}
+
+.biograpy-title{
+    font-size: 2rem;
+    color: cadetblue;
+}
+
+
+
+/* #endregion */
+
+
+

@@ -1,3 +1,11 @@
+.global-margin{
+    margin: 20px;
+}
+
+
+
+
+
 .display-flex{
     display: flex;
 }
@@ -42,12 +50,4 @@
 
 
 
-/* =================== WIDTH MEASURES =================== */
-/* #region Width measures */
 
-
-
-
-
-
-/* #endregion */

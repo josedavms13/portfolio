@@ -4,4 +4,44 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
+    .social{
+        margin-top: 10vh;
+        color: white;
+    }
+    .picture-description-container{
+        height: 50%;
+    }
+
+    .md-6{
+        width: 40%;
+    }
+
+    .global-margin{
+        margin: 5vw;
+    }
+    .md-biography-skills-container{
+        display: flex;
+    }
+
+    .Biography-container{
+        background-color: #5c68768a;
+        padding: 10px;
+    }
+    .md-biography{
+        color: rgb(201, 201, 201);
+    }
+    .top-space-m{
+        margin-top: 1vh;
+    }
+
+    .top-space-sm{
+        margin-top: 0.7vh;
+   
+    }
+    .interest-section{
+        color: rgb(201, 201, 201);
+    }
+    
 }
+
+

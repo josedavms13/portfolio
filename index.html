@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./assets/CSS/utilities.css">
     <link rel="stylesheet" href="./assets/CSS/colors.css">
     <link rel="stylesheet" href="./assets/CSS/mediaQuerys.css">
+    <link rel="stylesheet" href="./assets/CSS/fontSizes.css">
 
     <script src="https://kit.fontawesome.com/dec3a11496.js" crossorigin="anonymous"></script>
 
@@ -65,16 +66,65 @@
 
     <!-- #endregion -->
 
-    <Section class="Biography-container global-margin">
-        <h3 class="biograpy-title">
+    <div class="md-biography-skills-container">
+
+    <!-- #region BIOGRAPHY -->
+    <Section class="Biography-container global-margin md-6">
+        <h3 class="biograpy-title sub-title-font-size tittle-font-color">
             Biography
         </h3>
-        <p class="top-space-sm">
+        <p class="top-space-sm p-normal-size md-biography">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea sed quia eligendi, culpa quidem at, quisquam amet, nesciunt assumenda quibusdam incidunt earum adipisci obcaecati dolores debitis dolor commodi. Nulla, error.
             Possimus consectetur totam voluptates assumenda laudantium vero consequuntur, beatae commodi, sint cupiditate unde et nisi doloribus officia maxime libero molestiae quae eius perspiciatis nostrum quo accusamus aliquid. Iste, reiciendis. Perspiciatis!
         </p>
+
+        <div class="interest-section">
+            <h5 class="top-space-l little-tittle-h5 tittle-font-color">Interests</h5>
+            <div class="interests-list top-space-sm global-margin">
+                <ul class="p-normal-size">
+                    <li>Web Developement</li>
+                    <li>Software Engineering</li>
+                    <li>Interactivity and experience</li>
+                </ul>
+            </div>
+        </div>
     </Section>
 
+    <!-- #endregion -->
+
+    <!-- #region SKILLS -->
+    <section class="skills display-flex df-center">
+        <div class="skills-container display-flex df-vertical df-center">
+            <h2>Skills</h2>
+            <div class="skills-info top-space-m">
+
+                <div class="html-skill display-flex df-vertical df-center top-space-sm">
+                    <i class="fab fa-html5 fa-2x"></i>
+                    <h5 class="h-small-size">HTML</h5>
+                    <h6>30%</h6>
+                </div>
+                <div class="css-skill display-flex df-vertical df-center top-space-sm">
+                    <i class="fab fa-css3-alt fa-2x"></i>
+                    <h5 class="h-small-size">CSS</h5>
+                    <h6>30%</h6>
+
+                </div>
+                <div class="javascript-skill display-flex df-vertical df-center top-space-sm">
+                    <i class="fab fa-js fa-2x"></i>
+                    <h5 class="h-small-size">Javascript</h5>
+                    <h6>40%</h6>
+
+                </div>    
+            </div>
+        </div>
+
+
+
+    </section>
+
+    </div>
+
+    <!-- #endregion -->
 
 </body>
 </html>

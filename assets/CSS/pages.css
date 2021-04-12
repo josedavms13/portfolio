@@ -51,12 +51,12 @@ img{
 .profesion{
     border-bottom-style: solid;
     border-color: white;
-    padding-bottom: 14px;
-    border-width: 2px;
+    padding-bottom: 2%;
+    border-width: 1%x;
 }
 
 .social{
-    height: 70px;
+    height: 7%;
 
 }
 .social-container{
@@ -74,14 +74,10 @@ img{
     padding: 10px;
 }
 
-.biograpy-title{
-    font-size: 2rem;
-    color: cadetblue;
-}
-
-
 
 /* #endregion */
 
 
-
+.skills h2{
+    border-bottom-style: solid;
+}
